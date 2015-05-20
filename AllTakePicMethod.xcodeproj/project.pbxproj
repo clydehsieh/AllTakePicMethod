@@ -9,11 +9,16 @@
 /* Begin PBXBuildFile section */
 		EC05408C1B0ACC8A00FBDA1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC05408B1B0ACC8A00FBDA1F /* main.m */; };
 		EC05408F1B0ACC8A00FBDA1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC05408E1B0ACC8A00FBDA1F /* AppDelegate.m */; };
-		EC0540921B0ACC8A00FBDA1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0540911B0ACC8A00FBDA1F /* ViewController.m */; };
 		EC0540951B0ACC8A00FBDA1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC0540931B0ACC8A00FBDA1F /* Main.storyboard */; };
 		EC0540971B0ACC8A00FBDA1F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC0540961B0ACC8A00FBDA1F /* Images.xcassets */; };
 		EC05409A1B0ACC8A00FBDA1F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC0540981B0ACC8A00FBDA1F /* LaunchScreen.xib */; };
 		EC0540A61B0ACC8A00FBDA1F /* AllTakePicMethodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0540A51B0ACC8A00FBDA1F /* AllTakePicMethodTests.m */; };
+		EC0540B11B0ACFE500FBDA1F /* HomePageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0540B01B0ACFE500FBDA1F /* HomePageTableViewController.m */; };
+		EC0540B41B0B121700FBDA1F /* CameraBySegue.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0540B31B0B121700FBDA1F /* CameraBySegue.m */; };
+		EC0540B71B0B127700FBDA1F /* CameraBySegueVC2.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0540B61B0B127700FBDA1F /* CameraBySegueVC2.m */; };
+		EC0540BB1B0C3A5500FBDA1F /* CameraByDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0540BA1B0C3A5500FBDA1F /* CameraByDelegate.m */; };
+		EC0540BE1B0C3A7100FBDA1F /* CameraByDelegateVC2.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0540BD1B0C3A7100FBDA1F /* CameraByDelegateVC2.m */; };
+		EC0540C11B0C51E700FBDA1F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC0540C01B0C51E700FBDA1F /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +37,23 @@
 		EC05408B1B0ACC8A00FBDA1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EC05408D1B0ACC8A00FBDA1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EC05408E1B0ACC8A00FBDA1F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EC0540901B0ACC8A00FBDA1F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EC0540911B0ACC8A00FBDA1F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EC0540941B0ACC8A00FBDA1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC0540961B0ACC8A00FBDA1F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EC0540991B0ACC8A00FBDA1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		EC05409F1B0ACC8A00FBDA1F /* AllTakePicMethodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AllTakePicMethodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC0540A41B0ACC8A00FBDA1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC0540A51B0ACC8A00FBDA1F /* AllTakePicMethodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AllTakePicMethodTests.m; sourceTree = "<group>"; };
+		EC0540AF1B0ACFE500FBDA1F /* HomePageTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageTableViewController.h; sourceTree = "<group>"; };
+		EC0540B01B0ACFE500FBDA1F /* HomePageTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageTableViewController.m; sourceTree = "<group>"; };
+		EC0540B21B0B121700FBDA1F /* CameraBySegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraBySegue.h; sourceTree = "<group>"; };
+		EC0540B31B0B121700FBDA1F /* CameraBySegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraBySegue.m; sourceTree = "<group>"; };
+		EC0540B51B0B127700FBDA1F /* CameraBySegueVC2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraBySegueVC2.h; sourceTree = "<group>"; };
+		EC0540B61B0B127700FBDA1F /* CameraBySegueVC2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraBySegueVC2.m; sourceTree = "<group>"; };
+		EC0540B91B0C3A5500FBDA1F /* CameraByDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraByDelegate.h; sourceTree = "<group>"; };
+		EC0540BA1B0C3A5500FBDA1F /* CameraByDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraByDelegate.m; sourceTree = "<group>"; };
+		EC0540BC1B0C3A7100FBDA1F /* CameraByDelegateVC2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraByDelegateVC2.h; sourceTree = "<group>"; };
+		EC0540BD1B0C3A7100FBDA1F /* CameraByDelegateVC2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraByDelegateVC2.m; sourceTree = "<group>"; };
+		EC0540C01B0C51E700FBDA1F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC0540C11B0C51E700FBDA1F /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 		EC05407D1B0ACC8A00FBDA1F = {
 			isa = PBXGroup;
 			children = (
+				EC0540C01B0C51E700FBDA1F /* AVFoundation.framework */,
 				EC0540881B0ACC8A00FBDA1F /* AllTakePicMethod */,
 				EC0540A21B0ACC8A00FBDA1F /* AllTakePicMethodTests */,
 				EC0540871B0ACC8A00FBDA1F /* Products */,
@@ -83,9 +99,11 @@
 			children = (
 				EC05408D1B0ACC8A00FBDA1F /* AppDelegate.h */,
 				EC05408E1B0ACC8A00FBDA1F /* AppDelegate.m */,
-				EC0540901B0ACC8A00FBDA1F /* ViewController.h */,
-				EC0540911B0ACC8A00FBDA1F /* ViewController.m */,
 				EC0540931B0ACC8A00FBDA1F /* Main.storyboard */,
+				EC0540AF1B0ACFE500FBDA1F /* HomePageTableViewController.h */,
+				EC0540B01B0ACFE500FBDA1F /* HomePageTableViewController.m */,
+				EC0540B81B0B23E000FBDA1F /* CameraBysegue */,
+				EC0540BF1B0C3A8800FBDA1F /* CameraByDelegate */,
 				EC0540961B0ACC8A00FBDA1F /* Images.xcassets */,
 				EC0540981B0ACC8A00FBDA1F /* LaunchScreen.xib */,
 				EC0540891B0ACC8A00FBDA1F /* Supporting Files */,
@@ -117,6 +135,28 @@
 				EC0540A41B0ACC8A00FBDA1F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC0540B81B0B23E000FBDA1F /* CameraBysegue */ = {
+			isa = PBXGroup;
+			children = (
+				EC0540B21B0B121700FBDA1F /* CameraBySegue.h */,
+				EC0540B31B0B121700FBDA1F /* CameraBySegue.m */,
+				EC0540B51B0B127700FBDA1F /* CameraBySegueVC2.h */,
+				EC0540B61B0B127700FBDA1F /* CameraBySegueVC2.m */,
+			);
+			name = CameraBysegue;
+			sourceTree = "<group>";
+		};
+		EC0540BF1B0C3A8800FBDA1F /* CameraByDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				EC0540B91B0C3A5500FBDA1F /* CameraByDelegate.h */,
+				EC0540BA1B0C3A5500FBDA1F /* CameraByDelegate.m */,
+				EC0540BC1B0C3A7100FBDA1F /* CameraByDelegateVC2.h */,
+				EC0540BD1B0C3A7100FBDA1F /* CameraByDelegateVC2.m */,
+			);
+			name = CameraByDelegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +259,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC0540921B0ACC8A00FBDA1F /* ViewController.m in Sources */,
+				EC0540BB1B0C3A5500FBDA1F /* CameraByDelegate.m in Sources */,
+				EC0540B11B0ACFE500FBDA1F /* HomePageTableViewController.m in Sources */,
 				EC05408F1B0ACC8A00FBDA1F /* AppDelegate.m in Sources */,
+				EC0540BE1B0C3A7100FBDA1F /* CameraByDelegateVC2.m in Sources */,
 				EC05408C1B0ACC8A00FBDA1F /* main.m in Sources */,
+				EC0540B71B0B127700FBDA1F /* CameraBySegueVC2.m in Sources */,
+				EC0540B41B0B121700FBDA1F /* CameraBySegue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +395,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AllTakePicMethod/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -361,6 +406,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AllTakePicMethod/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -418,6 +464,7 @@
 				EC0540AB1B0ACC8A00FBDA1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC0540AC1B0ACC8A00FBDA1F /* Build configuration list for PBXNativeTarget "AllTakePicMethodTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +473,7 @@
 				EC0540AE1B0ACC8A00FBDA1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

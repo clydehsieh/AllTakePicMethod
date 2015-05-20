@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HomePageTableViewController.h
 //  AllTakePicMethod
 //
 //  Created by Chin-Hui Hsieh  on 5/19/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface HomePageTableViewController : UITableViewController
 
 @end
-
